@@ -8,6 +8,7 @@ import Contact from './views/Contact/contact_index.js'
 import Faq from './views/Faq/faq_index.js'
 import Blog from './views/Blog/blog_index.js'
 import Resources from './views/Resources/resources_index.js'
+import Lessons from './views/Lessons/lessons_index.js'
 
 export default (
   <Route path='/' component={App}>
@@ -17,5 +18,6 @@ export default (
     <Route path='/faq' component={Faq} />
     <Route path='/blog' component={Blog} />
     <Route path='/resources' component={Resources} />
+    <Route path='/lessons' component={Lessons} />
   </Route>
 )
