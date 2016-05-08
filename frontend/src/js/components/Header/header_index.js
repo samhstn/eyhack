@@ -46,3 +46,4 @@ export default class Header extends React.Component {
 Header.defaultProps = {
   menuItems: [ 'about', 'contact' ]
 }
+
