@@ -9,7 +9,7 @@
     "watch": "webpack --watch --progress",
     "build": "webpack --config",
     "prestart": "npm run server-build && webpack --progress --config webpack.config.js",
-    "start": "webpack --config && node ./backend/lib/index.js",
+    "start": "webpack && node ./backend/lib/index.js",
     "pretest": "npm run server-build",
     "test": "node ./backend/lib/tests/runner.js"
   },
