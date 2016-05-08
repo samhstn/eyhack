@@ -11,9 +11,12 @@ body {
   margin-bottom: $footer-height;
 }
 
-.about h3 {
+.about h4 {
+  margin: 2em 0;
   text-align: center;
-  margin: 2em;
+}
+.about p {
+  margin-left: 20%;
 }
 
 .home {
@@ -21,8 +24,8 @@ body {
 }
 
 .image-container {
-  width: 80%;
-  max-width: 400px;
+  width: 100%;
+  max-width: 800px;
   margin: 4em auto;
 
   img {
