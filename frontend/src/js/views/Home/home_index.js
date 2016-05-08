@@ -11,9 +11,10 @@ class Home extends React.Component {
         <Row>
           <Col xs={12}>
             <div className='image-container'>
-              <img src='img/rhino.png' />
+              <img src='img/cepBackground.jpeg' />
             </div>
-            <p>Your app goes here...</p>
+            <p>Some people are born able-bodied, Others are born Superhuman.</p>
+            <p>We believe in teaching children they are great by teaching them great body control.</p>
             <a href='/login-with-twitter'>login with twitter</a>
           </Col>
         </Row>
