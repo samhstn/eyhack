@@ -5,7 +5,6 @@ import { getUserDetails } from '../../actions/actions_index.js'
 
 class Home extends React.Component {
   render () {
-    console.log(this.props)
     return (
       <Grid className='home'>
         <Row>
@@ -15,7 +14,6 @@ class Home extends React.Component {
             </div>
             <p>Some people are born able-bodied, Others are born Superhuman.</p>
             <p>We believe in teaching children they are great by teaching them great body control.</p>
-            <a href='/login-with-twitter'>login with twitter</a>
           </Col>
         </Row>
       </Grid>

@@ -39,21 +39,19 @@ class Resources extends Component {
               <li style={styles.li}>
                 <h3 style={{fontSize: '2em'}}><a href={lesson.url} target='_blank'>{lesson.title}</a></h3>
                 <Row>
-                  <Col md={2}><strong>Venue</strong></Col>
-                  <Col md={10}>{lesson.venue}</Col>
+                  <Col md={2}><strong>Overview</strong></Col>
+                  <Col md={10}>{lesson.overview}</Col>
                 </Row>
                 <Row>
-                  <Col md={2}><strong>Time</strong></Col>
-                  <Col md={5}>{lesson.time}</Col>
-                  <Col md={3}><strong>Attendees</strong></Col>
-                  <Col md={2}><em>{lesson.attendees}</em></Col>
+                  <Col md={2}><strong>Exercise time per day</strong></Col>
+                  <Col md={5}>{lesson.timepd}</Col>
                 </Row>
                 <Button
                   onClick={() => {
                     this.props.changeCurrentEvent(lesson)
                     this.props.toggleModal()
                   }}
-                >MORE INFO
+                >Watch Video
                 </Button>
             </li>
           )}
